@@ -91,7 +91,7 @@ function drawText() {
 
     if(frameNumber < 250){
         context.fillStyle = `rgba(255, 182, 193, ${opacity})`;
-        context.fillText("sweetheart every single day i cannot believe how lucky i am to have you", canvas.width/2, canvas.height/2);
+        context.fillText("every single day i cannot believe how lucky i am to have you", canvas.width/2, canvas.height/2);
         opacity = opacity + 0.01;
     }
     //fades out the text by decreasing the opacity
